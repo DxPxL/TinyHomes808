@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppines', sans-serif;
+}
+
+.container{
+	width: 100%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 8%;
+}
+
+
+.pswp__custom-caption {
+  background: rgba(75, 150, 75, 0.75);
+  font-size: 16px;
+  color: #fff;
+  width: calc(100% - 32px);
+  max-width: 400px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  transform: translateX(-50%);
+}
+.pswp__custom-caption a {
+  color: #fff;
+
+}
+.hidden-caption-content {
+  display: none;
+}
+
+
+/* === BASE HEADING === */ 
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* === HEADING STYLE #2 === */
+.two h1 {
+  text-transform: capitalize;
+}
+.two h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background-color: #c50000;
+}
+
+.two h1 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: rgba(0, 0, 0, 0.4);
+
+}
+.alt-two h1 {
+  text-align:center;
+}
+.alt-two h1:before {
+  left:50%; margin-left:-30px;
+}
+
+.bodyTextContainer{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	padding: 50px 8%;
+	display: block;
+  background-color:#0099ff;
+  font-size: 1.4em;
+  line-height: 1.3;
+  
+
+}
+
+
+#footer {
+  
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+   color: white;
+   text-align: center;
+   
+}
+
+a {
+  text-decoration: none;
+}
+
+.textlink a:hover {
+  background: black;
+  color: white;
+}
+
+.textlink a {
+
+  color: white;
+}
+
+.blacklink a {
+
+  color: black;
+}
+
+.wave-container > svg {
+  display:block;
+}
+
+ .topcorner{
+   position:absolute;
+   top:10px;
+   right:50px;
+   font-size: 15px;
+  }
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 650px) {
+  .topcorner {
+  	position:relative;
+	  top:00px;
+    right:0px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .bodyTextContainer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:#0099ff;
+    position: absolute;
+    padding: 50px 8%;
+      display: block;
+    font-size: 1.7em;
+    line-height: 1.3;
+    
+    
+    
+      
+ 
+    
+  }
+
+
+}
+
+
+ 
+
+
