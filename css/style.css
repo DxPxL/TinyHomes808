@@ -7,18 +7,12 @@
   max-height: 100% !important;
 }
 
-
-
-
 .container{
 	width: 100%;
-	
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
-
 
 .pswp__custom-caption {
   background: rgba(75, 150, 75, 0.75);
@@ -33,16 +27,14 @@
   bottom: 16px;
   transform: translateX(-50%);
 }
+
 .pswp__custom-caption a {
   color: #fff;
-
 }
+
 .hidden-caption-content {
   display: none;
 }
-
-
-/* === BASE HEADING === */ 
 
 h1 {
   position: relative;
@@ -154,7 +146,7 @@ a {
     width: 100%;
   }
   .bodyTextContainer{
-    font-size: 4.2vh;
+    font-size: 2vw;
   }
 }
 
@@ -180,10 +172,3 @@ a {
     font-size: 30px;
   }
 }
-
-
-
-
- 
-
-
