@@ -20,7 +20,7 @@ body{
 
 .pswp__custom-caption {
   background: rgba(119, 119, 119, 0.75);
-  font-size: 27px;
+  font-size: 40px;
   color: #fff;
   width: calc(100% - 32px);
   
@@ -46,7 +46,7 @@ h1 {
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 8vh;
+  font-size: 60px;
   color: #080808;
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -55,7 +55,7 @@ h1 {
 
 h1 span {
   display: block;
-  font-size: 0.5em;
+  font-size: 60px;
   line-height: 1.3;
 }
 h1 em {
@@ -144,7 +144,7 @@ a {
     padding: 0px 8%;
     display: block;
     background-color:#0099ff;
-    font-size: 60px;
+    font-size: 17px;
     line-height: 1.3;
   }
 
@@ -154,7 +154,7 @@ a {
     width: 100%;
   }
   .bodyTextContainer{
-    font-size: 2vw;
+    font-size: 17px;
   }
 }
 
@@ -167,7 +167,7 @@ a {
     padding-bottom: 10px;
   }
   .bodyTextContainer{
-    font-size: 2.2vh;
+    font-size: 17px;
   }
   h1 {
     font-size: 80px;
