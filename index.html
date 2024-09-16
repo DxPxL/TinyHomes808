@@ -2,7 +2,7 @@
 <head>
 	<script type="module">
 		import PhotoSwipeLightbox from './photoswipe/photoswipe-lightbox.esm.js';
-		import PhotoSwipe from '/photoswipe/photoswipe.esm.js';
+		import PhotoSwipe from './photoswipe/photoswipe.esm.js';
 
 		const lightbox = new PhotoSwipeLightbox({
 		// may select multiple "galleries"
@@ -44,14 +44,19 @@
 
 		lightbox.init();
 	</script>
-	<link rel="stylesheet" href="photoswipe/photoswipe.css">
+	<link rel="stylesheet" href="css/photoswipe.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="two alt-two">
 		<h1>Tiny Homes 808
 		  <span>Aloha and Welcome</span>
-		  <div class="topcorner"><div class="textlink blacklink"><a href=“tel:+8082196235”>(808) 219-6235</a></div></div>
+		  <div class="topcorner">
+			<div class="textlink blacklink">
+				<a href=“tel:+8082196235”>(808) 219-6235
+				</a>
+			</div>
+		  </div>
 		</h1>
 	</div>  
 	<div class="container">
