@@ -3,23 +3,27 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'poppines', sans-serif;
-  overflow: auto!important;
-  max-height: 100% !important;
+
 }
 
+body{
+  background-color:#0099ff;
+}
 .container{
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+  background-color:#ffffff;
+  
 }
 
 .pswp__custom-caption {
-  background: rgba(75, 150, 75, 0.75);
-  font-size: 16px;
+  background: rgba(119, 119, 119, 0.75);
+  font-size: 27px;
   color: #fff;
   width: calc(100% - 32px);
-  max-width: 400px;
+  
   padding: 2px 8px;
   border-radius: 4px;
   position: absolute;
@@ -70,7 +74,7 @@ h1 em {
   width: 60px;
   height: 2px;
   content: "";
-  background-color: #c50000;
+
 }
 
 .two h1 span {
@@ -85,18 +89,20 @@ h1 em {
 }
 .alt-two h1 {
   text-align:center;
+  background-color:#ffffff;
 }
 .alt-two h1:before {
   left:50%; margin-left:-30px;
+  
 }
 
 #footer { 
-   left: 0;
-   bottom: 0;
+
    width: 100%;
    color: white;
    text-align: center;
-   background-color:#0099ff; 
+
+   
 }
 
 a {
@@ -119,8 +125,10 @@ a {
 }
 
 .wave-container > svg {
-  display:block;
-  background-color:#ffffff; 
+  display: block;
+  background-color:#ffffff;
+  
+  
 }
  .topcorner{
    position:absolute;
@@ -130,7 +138,7 @@ a {
   }
   .bodyTextContainer{
     width: 100%;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     position: absolute;
     padding: 0px 8%;
